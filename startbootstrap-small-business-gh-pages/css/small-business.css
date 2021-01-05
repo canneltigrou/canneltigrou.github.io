@@ -36,3 +36,8 @@ body {
   color: white;
   padding: 12px;
 }
+
+.info {
+  background-color: #ffdddd;
+  border-left: 6px solid #3649f4;
+}

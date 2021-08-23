@@ -142,7 +142,7 @@
 
     <!-- Content 2nd Row -->
     <div class="row">
-      <div class="col-md-4 mb-5">
+      <!-- <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
             <h2 class="card-title">LSTM for music generation</h2>
@@ -159,7 +159,7 @@
             <a href="https://github.com/canneltigrou/canneltigrou.github.io/blob/master/JupyterNotebooks/Improvise a Jazz Solo with an LSTM Network - v3.ipynb" class="btn btn-primary btn-sm">Show me!</a>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- /.col-md-4 -->
       <div class="col-md-4 mb-5">
         <div class="card h-100">
@@ -182,6 +182,27 @@
         </div>
       </div>
       <!-- /.col-md-4 -->
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Little project using dlib facial detection</h2>
+            <p class="card-text">
+              Use of the face landmarks from dlib (pretrained model to find 68 landmarks of a face), to build a corresponding smiley. <br> 
+              1. The face is detected (dlib - HOG) with the landmarks, <br> 
+              2. then taking 3 points, the face is rotated to align the eyes and nose : the angle is computed, <br> 
+              3. then the measure between different landmarks are used to build the caracteristics of the smiley, <br> 
+              4. Finally, the smiley face is rotated from the opposite angle. <br> 
+              
+              I plan to use heroku as server to make a website where the user can allow the camera and see the smiley in real time.
+              It is still in construction. Here is <a href="https://smiley-canneltigrou.herokuapp.com/">the link</a>.
+              
+            </p>
+          </div>
+          <div class="info">
+            <p><strong>Info!</strong> Still in process!</p>
+          </div>
+        </div>
+      </div>
 
     </div>
     <!-- /.row -->
